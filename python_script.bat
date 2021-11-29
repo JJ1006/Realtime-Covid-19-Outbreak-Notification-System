@@ -1,0 +1,1 @@
+"C:\Users\Jaahanava Joshi\AppData\Local\Programs\Python\Python39\python.exe" "D:\Visual Studio Code\python projects\Realtime-Covid-19-Outbreak-Notification-System\main.py"
