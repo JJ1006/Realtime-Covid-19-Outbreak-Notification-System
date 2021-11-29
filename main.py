@@ -28,7 +28,7 @@ for i in states:
     new_death = df.loc[df['state_name'] == i].new_death.values[0]
 
     # nTitle = 'Cases of Covid-19'
-    nText = f"State: {state_name}\nCured: {cured}\nActive: {new_active}\nNew Active: {new_active}\nNew Death: {new_death}"
+    nText = f"State: {state_name}\nActive: {active}\nNew Cured: {new_cured}\nNew Death: {new_death}"
     # print(nText)
     notifyMe(nText)
     time.sleep(7)
