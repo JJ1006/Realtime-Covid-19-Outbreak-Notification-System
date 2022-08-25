@@ -14,8 +14,8 @@ def notifyMe(message):
     )
 
 # print(df)
-# print(df.loc[df['state_name'] == 'Gujarat'])
-states = ['Gujarat','Andhra Pradesh']
+# print(df.loc[df['state_name'] == 'Gujarat']) 
+states = ['Gujarat','Maharashtra', 'Delhi']
 for i in states:
     state_name = df.loc[df['state_name'] == i].state_name.values[0]
     active = df.loc[df['state_name'] == i].active.values[0]
